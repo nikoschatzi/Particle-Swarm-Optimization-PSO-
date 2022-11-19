@@ -2,7 +2,7 @@
 
 int main(int argc, char **argv) {
 	
-	struct PSO result;  
+    struct PSO result;  
     result = PSO_run(population, max_iterations, lower_bound,upper_bound);
     
     printf("best objective = %f", result.objective);
